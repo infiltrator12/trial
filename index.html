@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="keyword" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="/client/assets/css/index.css">
+        <link rel="stylesheet" href="/client/assets/css/shared.css">
+        <link rel="icon" type="image/png" href="client/assets/photos/JWM.webp">
+    </head>
+    <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+          <div class="row w-100">
+            
+            <!-- Left: Brand -->
+            <div class="col-3 d-flex align-items-center">
+              <a class="navbar-brand" href="index.html">JWM.</a>
+            </div>
+            
+            <!-- Center: Nav Links -->
+            <div class="col-6">
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav list-unstyled d-flex flex-row justify-content-around w-100">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="project.html">Projects & Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#resume">Resume</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <!-- Right: Let's Talk Button -->
+            <div class="col-3 d-flex align-items-center justify-content-end">
+              <a href="contact.html" class="lets-talk-btn text-decoration-none">Let's Talk</a>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+
+    <!-- Banner Section -->
+    <section class="banner d-flex align-items-center justify-content-between">
+        <div class="separate">
+            <div class="banner-content col-60 text-left">
+                <h1>Hi THERE!</h1>
+                <p>I'm John Mwangi, a Software Developer.</p>
+                <span>Transforming Complex Ideas into Seamless Solutions</span>
+
+                <button class="send">
+                  <a href="">Get in Touch</a>
+                </button>
+                
+            </div>
+            <div class="profile-container col-40">
+                <img src="/client/assets/photos/profile.jpeg" alt="Your Name" class="profile-pic">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Floating Navigation -->
+    <div class="floating-nav">
+        <a href="#home" class="nav-icon"><i class="fas fa-home fa-1x"></i></a>
+        <a href="#about" class="nav-icon"><i class="fas fa-user"></i></a>
+        <a href="#projects" class="nav-icon"><i class="fas fa-briefcase"></i></a>
+        <a href="#resume" class="nav-icon"><i class="fas fa-file-alt"></i></a>
+        <a href="#contact" class="nav-icon"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <section class="about-me">
+      <div class="container">
+        <div class="about-content text-center">
+          <h3><i class="fa-solid fa-horizontal-rule"></i> ABOUT ME</h3>
+          <h2>Who I Am</h2>
+          <p>
+            Hello! I am <strong>John Williams Mwangi</strong>, a passionate software developer with a focus on both frontend and backend technologies. 
+            My journey in development started with an eagerness to solve real-world problems through code, and I continue to pursue that passion every day. 
+            I'm constantly learning new skills, improving my expertise, and collaborating on innovative projects.
+          </p>
+          <p>
+            I specialize in web and mobile applications, but I'm always open to exploring new areas and challenges. 
+            If you'd like to know more about my journey or work with me, don't hesitate to reach out!
+          </p>
+          <a href="/client/assets/photos/John Mwangi CV.pdf" download class="download-btn">Download CV</a> <!-- Update with actual CV path -->
+        </div>
+        
+        
+        <!-- Skills Section -->
+        <div class="skills-section">
+          <h3>My Skills</h3>
+          <div class="skills-container d-flex flex-wrap justify-content-center">
+            <div class="skill">
+              <div class="circular-progress" data-progress="100">
+                <span class="progress-value">100%</span>
+              </div>
+              <p>HTML</p>
+            </div>
+            <div class="skill">
+              <div class="circular-progress" data-progress="85">
+                <span class="progress-value">85%</span>
+              </div>
+              <p>CSS</p>
+            </div>
+            <div class="skill">
+              <div class="circular-progress" data-progress="75">
+                <span class="progress-value">75%</span>
+              </div>
+              <p>JavaScript</p>
+            </div>
+            <div class="skill">
+              <div class="circular-progress" data-progress="90">
+                <span class="progress-value">90%</span>
+              </div>
+              <p>React</p>
+            </div>
+            <div class="skill">
+              <div class="circular-progress" data-progress="80">
+                <span class="progress-value">80%</span>
+              </div>
+              <p>NodeJS</p>
+            </div>
+            <div class="skill">
+              <div class="circular-progress" data-progress="75">
+                <span class="progress-value">75%</span>
+              </div>
+              <p>SQL</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Skills Section -->
+    <section class="skills-section py-5">
+      <div class="container text-center">
+        <h3>MY SERVICES</h3>
+          <h2 class="section-title mb-4">What I Can Do For You  </h2>
+          <p class="section-subtitle mb-5">Here are some of the services </p>
+          
+          <div class="row">
+              <!-- Skill Box -->
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="service-box">
+                  <img src="/client/assets/photos/webdevelopment.jpg" alt="JavaScript Service Image" class="service-image">
+                  <div class="overlay">
+                    <h4>WEB DEVELOPMENT</h4>
+                    <p>Proficient in modern JavaScript, ES6+, and asynchronous programming.</p>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <!-- Skill Box -->
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="service-box">
+                  <img src="/client/assets/photos/software_development.webp" alt="JavaScript Service Image" class="service-image">
+                  <div class="overlay">
+                    <h4>SOFTWARE DEVELPMENT</h4>
+                    <p>Proficient in modern JavaScript, ES6+, and asynchronous programming.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Skill Box -->
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="service-box">
+                  <img src="/client/assets/photos/app_development.jpg" alt="JavaScript Service Image" class="service-image">
+                  <div class="overlay">
+                    <h4>MOBILE APP DEVELOPMENT</h4>
+                    <p>Proficient in modern JavaScript, ES6+, and asynchronous programming.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="service-box">
+                  <img src="/client/assets/photos//UI_UX.png" alt="JavaScript Service Image" class="service-image">
+                  <div class="overlay">
+                    <h4>USER INTERFACE/ USER EXPERIENCE</h4>
+                    <p>Proficient in modern JavaScript, ES6+, and asynchronous programming.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-left">
+          <p>&copy; 2024 JWM. All rights reserved.</p>
+        </div>
+        <div class="footer-right">
+          <ul class="social-links">
+            <li><a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://www.github.com/infiltrator12" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="mailto:williammwangi.gitau@gmail.com"><i class="fa-regular fa-envelope"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer> 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+    <script>
+      document.querySelectorAll(".circular-progress").forEach(progress => {
+        const percentage = progress.getAttribute("data-progress");
+        progress.style.setProperty("--progress", percentage);
+      });
+
+    </script>
+</html>
