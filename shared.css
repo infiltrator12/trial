@@ -1,0 +1,206 @@
+body{
+    background: linear-gradient(to left, #f0f0f0, #1c1c1c);
+}
+
+.navbar-brand {
+    font-family: 'Helvetica', sans-serif; 
+    font-size: 2.5rem; 
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: black;
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar-brand:hover{
+    color: #f0f0f0;
+}
+
+.navbar{
+    background: linear-gradient(to left, #f0f0f0, #1c1c1c);
+}
+
+.navbar-nav {
+  flex: 1;
+  justify-content: center;
+  
+}
+.lets-talk-btn {
+  color: black;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+.nav-item{
+    font-size: 1.0rem;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+}
+  
+.navbar-nav .nav-item a {
+    text-decoration: none; 
+    color: black; 
+    padding: 10px 15px; 
+}  
+
+.navbar-nav .nav-item:hover a {
+    color: #f0f0f0;
+}  
+  /* Create the underline effect */
+.navbar-nav .nav-item a::after {
+    content: ""; 
+    display: block; 
+    height: 2px; 
+    width: 100%;
+    background: #f0f0f0;
+    position: absolute;
+    left: 0;
+    bottom: -5px; 
+    transform: scaleX(0); 
+    transition: transform 0.3s ease; 
+}  
+  /* Scale the underline on hover */
+.navbar-nav .nav-item:hover a::after {
+    transform: scaleX(1); 
+}
+
+/* Floating Navigation Styles */
+.floating-nav {
+    position: fixed; 
+    top: 50%; 
+    left: 10px; 
+    transform: translateY(-100%); 
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+  
+.floating-nav .nav-icon {
+    display: block; 
+    color: #333; 
+    font-size: 24px; 
+    padding: 10px; 
+    transition: color 0.3s ease; 
+}
+  
+.floating-nav .nav-icon:hover {
+    color: #f0f0f0; 
+}
+
+/* Footer Container */
+.footer {
+    background-color: linear-gradient(to left, #f0f0f0, #1c1c1c);;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Footer Content */
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Left Section */
+  .footer-left p {
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  /* Right Section (Social Links) */
+  .footer-right {
+    display: flex;
+  }
+  
+  .footer-right .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer-right .social-links li {
+    font-size: 16px;
+  }
+  
+  .footer-right .social-links a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-right .social-links a:hover {
+    color: #fff;
+  }
+
+  .skills-section {
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+  }
+  
+  /* Circular Progress */
+  .circular-progress {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: conic-gradient(
+      #ffd700 calc(var(--progress, 0) * 1%),
+      #e0e0e0 calc(var(--progress, 0) * 1%)
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    --progress: 0;
+  }
+  
+  .circular-progress::before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff; /* Color for inner background */
+  }
+  
+  .progress-value {
+    position: relative;
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    z-index: 1;
+  }
+
+  
+  
+  
